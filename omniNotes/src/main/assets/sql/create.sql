@@ -25,7 +25,7 @@ CREATE
 CREATE
 	TABLE attachments
 	(
-		attachment_id INTEGER PRIMARY KEY AUTOINCREMENT,
+		attachment_id INTEGER PRIMARY KEY AUTO_INCREMENT,
 		uri TEXT,
 		name TEXT,
 		size INTEGER,

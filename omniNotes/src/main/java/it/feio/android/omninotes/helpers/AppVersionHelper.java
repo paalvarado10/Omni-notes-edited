@@ -20,8 +20,6 @@ package it.feio.android.omninotes.helpers;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-
-import it.feio.android.omninotes.R;
 import it.feio.android.omninotes.utils.Constants;
 
 

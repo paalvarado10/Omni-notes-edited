@@ -17,7 +17,6 @@
 
 package it.feio.android.omninotes.helpers;
 
-import it.feio.android.checklistview.models.ChecklistManager;
 import it.feio.android.omninotes.utils.Constants;
 import junit.framework.Assert;
 import org.apache.commons.lang.StringUtils;

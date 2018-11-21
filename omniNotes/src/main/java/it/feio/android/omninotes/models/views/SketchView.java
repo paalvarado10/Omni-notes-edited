@@ -145,11 +145,11 @@ public class SketchView extends View implements OnTouchListener {
 
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
-                touch_start(x, y);
+                touchStart(x, y);
                 invalidate();
                 break;
             case MotionEvent.ACTION_MOVE:
-                touch_move(x, y);
+                touchMove(x, y);
                 invalidate();
                 break;
             case MotionEvent.ACTION_UP:
@@ -176,7 +176,7 @@ public class SketchView extends View implements OnTouchListener {
     }
 
 
-    private void touch_start(float x, float y) {
+    private void touchStart(float x, float y) {
         // Clearing undone list
         undonePaths.clear();
 
@@ -201,7 +201,7 @@ public class SketchView extends View implements OnTouchListener {
     }
 
 
-    private void touch_move(float x, float y) {
+    private void touchMove(float x, float y) {
         m_Path.quadTo(mX, mY, (x + mX) / 2, (y + mY) / 2);
         mX = x;
         mY = y;

@@ -42,7 +42,7 @@ public class TagsHelperTest {
 
 
 	@Before
-	public void setup() {
+	public void setUp() {
 		note = new Note();
 		note.setContent("Random content with " + TAG1 + " " + TAG2 + " " + TAG3);
 	}

@@ -144,17 +144,7 @@ public class BaseActivity extends ActionBarActivity {
 	}
 
 
-    /**
-     * Retrieves resource by name
-     *
-     * @param aString
-     * @returnnotifyAppWidgets
-     */
-    private String getStringResourceByName(String aString) {
-        String packageName = getApplicationContext().getPackageName();
-        int resId = getResources().getIdentifier(aString, "string", packageName);
-        return getString(resId);
-    }
+
 
 
     /**
